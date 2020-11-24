@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="tab_text_1">All Items</string>
+    <string name="tab_text_2">Weekly View</string>
+    <string name="tab_text_3">Daily View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="record_my_task">Record My Task</string>
+    <string name="select_a_day">Select a day:</string>
+    <string name="record_a_new_task">Record a new task</string>
+    <string name="enter_a_task">Enter a task:</string>
+    <string name="priority_level">Priority level:</string>
+    <string name="low">low</string>
+    <string name="medium">medium</string>
+    <string name="medium_">Medium</string>
+    <string name="high">high</string>
+    <string name="high_">High</string>
+    <string name="select_a_target_completion_date">Select a target completion date:</string>
+    <string name="select_a_date_range">Select a date range:</string>
+    <string name="finish_by">Finish By:</string>
+
+</resources>

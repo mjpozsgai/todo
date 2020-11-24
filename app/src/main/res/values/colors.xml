@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_navy">#051731</color>
+    <color name="navy">#172a45</color>
+    <color name="accent_blue">#2654fa</color>
+    <color name="accent_green">#8ee4af</color>
+    <color name="light_navy">#05386B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_grey">#cfd5dc</color>
+    <color name="grey">#9da7c6</color>
+    <color name="green">#6AC667</color>
+    <color name="yellow">#FFFB6B</color>
+    <color name="red">#CC6F6F</color>
+
+</resources>

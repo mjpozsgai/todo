@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarSize="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/record_a_new_task"
+            android:textFontWeight="6"
+            android:textSize="24sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_a_task" />
+
+            <EditText
+                android:id="@+id/task_notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="3"
+                android:padding="10dp"
+                android:singleLine="false"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/priority_level" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/low"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:padding="4dp"
+                    android:src="@drawable/green_uncircled"
+                    android:text="@string/low"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    app:cornerRadius="60dp"
+                    app:iconPadding="0dp" />
+
+                <TextView
+                    android:id="@+id/low_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/low"
+                    android:layout_alignTop="@+id/low"
+                    android:layout_alignRight="@+id/low"
+                    android:layout_alignBottom="@+id/low"
+                    android:gravity="center"
+                    android:text="@string/low"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/medium"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:checkable="true"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:padding="4dp"
+                    android:shadowColor="#4C65AF"
+                    android:shadowRadius="100"
+                    android:src="@drawable/yellow_uncircled"
+                    android:text="@string/medium"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    app:cornerRadius="60dp"
+                    app:iconPadding="0dp" />
+
+                <TextView
+                    android:id="@+id/medium_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/medium"
+                    android:layout_alignTop="@+id/medium"
+                    android:layout_alignRight="@+id/medium"
+                    android:layout_alignBottom="@+id/medium"
+                    android:gravity="center"
+                    android:text="@string/medium_"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/high"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:padding="4dp"
+                    android:src="@drawable/red_uncircled"
+                    android:text="@string/high"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="#000000"
+                    app:cornerRadius="60dp"
+                    app:iconPadding="0dp" />
+
+                <TextView
+                    android:id="@+id/myImageViewText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/high"
+                    android:layout_alignTop="@+id/high"
+                    android:layout_alignRight="@+id/high"
+                    android:layout_alignBottom="@+id/high"
+                    android:gravity="center"
+                    android:text="@string/high_"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:shadowColor="#FFFFFF"
+            android:text="@string/select_a_target_completion_date"
+            android:textFontWeight="6"
+            android:textSize="14sp" />
+
+
+        <DatePicker
+            android:id="@+id/scheduled"
+            android:layout_width="wrap_content"
+            android:layout_height="407dp"
+            android:layout_gravity="center"
+            android:calendarViewShown="false"
+            android:datePickerMode="calendar"
+            android:elevation="-1dp"
+            android:headerBackground="@color/light_navy"
+            android:paddingRight="0dp"
+            android:translationY="-95dp" />
+
+        <Button
+            android:id="@+id/log_task_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/light_navy"
+            android:gravity="center_horizontal"
+            android:scrollbarDefaultDelayBeforeFade="0"
+            android:scrollbarSize="0dp"
+            android:text="@string/record_my_task"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textSize="20sp"
+            android:translationY="-60dp"
+            app:backgroundTint="@color/light_navy"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+</ScrollView>

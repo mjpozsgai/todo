@@ -14,3 +14,7 @@ To view tasks for a week (or several days), go to the Weekly View tab and select
 
 To view tasks for a single day, select the Daily View tab and select a date. This will show all tasks that have a target completion date on the selected date.
 
+# Future Features
+* Delete old tasks
+* Put tasks into categories 
+* assign specific times to tasks in single day view
